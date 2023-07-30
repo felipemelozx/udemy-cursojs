@@ -12,15 +12,15 @@
 <body>
     <section class="main">
         <section class="container">
-            <h1>Tabela Imc</h1>
-            <form action="">
+            <h1>Calcule seu IMC</h1>
+            <form action="" class="formulario">
                 <label for="peso">Peso</label>
-                <input type="number" id="peso" placeholder="Peso" required min="10">
+                <input type="text" id="peso" placeholder="Peso">
 
                 <label for="altura">Altura</label>
-                <input type="number" id="altura" placeholder="Altura" required min="1">
+                <input type="text" id="altura" placeholder="Altura">
 
-             <button onclick="calcular()">SUBMIT</button>
+                <button>SUBMIT</button>
             </form>
             <section class="resultado"></section>
         </section>
