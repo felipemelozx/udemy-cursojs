@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imc: Calculo do Indece de masa coporal</title>
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <section class="main">
+        <section class="container">
+            <h1>Tabela Imc</h1>
+            <form action="">
+                <label for="peso">Peso</label>
+                <input type="number" id="peso" placeholder="Peso" required min="10">
+
+                <label for="altura">Altura</label>
+                <input type="number" id="altura" placeholder="Altura" required min="1">
+
+             <button onclick="calcular()">SUBMIT</button>
+            </form>
+            <section class="resultado"></section>
+        </section>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
