@@ -71,7 +71,15 @@ body, html{
   form button:hover {
     background: var(--primary-color-darker);
   }
-  
+  .iniciar, .pausar, .zerar{
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    font-size: 1.7rem;
+  }
+  .rr{
+    font-size: 8rem;
+  }
   .pausado {
     color:red;
   }
