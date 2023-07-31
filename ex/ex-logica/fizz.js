@@ -1,17 +1,11 @@
-function fizzBuzz(num) {
-  let x;
-    if (  x = Number(num)!== Number){
-        return 'digite um numero entre 0 e 100!!!'
-    }
-    
-    if (x % 3 === 0) {
-        return 'fizz'
-    }
-    if (x % 5 === 0) {
-        return 'buzz'
-    } else {
-        return x
-    }
+function fizzBuzz(x) {
+    if (typeof x !== 'number') return x
+    if (x % 3 === 0 && x % 5 === 0) return 'Fizzbuzz'
+    if (x % 3 === 0) return 'Fizz'
+    if (x % 5 === 0) return 'Buzz'
+    return x
 
 }
-console.log(fizzBuzz('dhjbkfbjkhsf'))
+for (let i = 0; i <= 100; i++){
+    console.log(i, fizzBuzz(i))
+}
