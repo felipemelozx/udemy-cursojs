@@ -42,23 +42,25 @@ body, html{
     text-align: center;
     text-justify: auto;
 }
-.container form input, form label, form button {
+.container  input,  label,  button {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
   }
-  form input {
+   input {
     font-size: 2.4rem;
     height: 5rem;
+    max-width: 400px;
     padding: 0 2rem;
   }
-  .container form label{
+  .container  label{
     font-size: 2rem;
   }
-  form input:focus {
+   input:focus {
     outline: 1px solid var(--primary-color);
   }
-  form button {
+   button {
+    max-width: 400px;
     border: none;
     background: var(--primary-color);
     color: #fff;
@@ -68,8 +70,11 @@ body, html{
     cursor: pointer;
     margin-top: 30px;
   }
-  form button:hover {
+   button:hover {
     background: var(--primary-color-darker);
+  }
+  #lista{
+    font-size: 2rem;
   }
   
   
